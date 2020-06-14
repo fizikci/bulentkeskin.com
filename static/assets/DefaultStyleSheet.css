@@ -1,0 +1,61 @@
+body {
+	font-family:Helvetica;
+	font-size:16px;
+	background: url("/UserFiles/Images/graph_tile.png") repeat scroll 0 0 transparent;
+}
+DIV {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.title {
+color: #3C4245;
+font-size: 1em;
+font-weight: bold;
+padding-right: 1em;
+text-align: right;
+}
+.title img {height:2.2em;}
+.a, .act {
+	font-size:1em;
+	float:right;
+	border-radius: .5em 0 0 .5em;
+	padding:.5em;
+	margin-bottom:.2em;
+}
+.a:hover {
+	background-color: #ddd;
+	cursor:pointer;
+}
+.act {
+	background-color: #3C4245;
+	color:white;
+}
+.preview {
+background-color: #3C4245;
+border-radius: 1em 1em 1em 1em;
+float: right;
+height: 30em;
+overflow: hidden;
+padding: 1em;
+position: relative;
+width: 30em;
+}
+#slide {
+	position:absolute;
+	top:1em;
+	left:1em;
+	right:1em;
+}
+.preview img {
+	width:100%;
+	margin-bottom:1em;
+}
+#StaticHtml_3 {
+	width:41em;
+	height:33em;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5em;
+}

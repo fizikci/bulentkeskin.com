@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'bulentkeskin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2AF8EE757D994372979B2D445D60D2CC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_129503F40ADE4D718BB3EC4E786A064B }}
           package: .
